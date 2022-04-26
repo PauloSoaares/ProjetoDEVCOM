@@ -1,0 +1,53 @@
+.home {
+    background: url(../assets/imgs/gelada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40em;
+}
+
+.home__titulo {
+    color: #F19120;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    width: auto;
+}
+
+.home__texto {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+
+.home__botao {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    text-align: center;
+    width: auto;
+
+    background-color: #F19120;
+    padding: 17px 24px 16px;
+    border-radius: 50px;
+
+    color: #fff;
+    font-weight: 550;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}

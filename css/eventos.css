@@ -1,0 +1,46 @@
+.eventos {
+    background: url(../assets/imgs/background-risquinho.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35em;
+    width: 100%;
+    display: flex;
+    padding: 25px 0;
+}
+
+.eventos-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.eventos__titulo {
+    color: #F19120;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 450px;
+}
+
+.eventos__sub-titulo {
+    color: #F19120;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    max-width: 450px;
+}
+
+.eventos__descricao {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+
+    max-width: 450px;   
+}
+
+.eventos-img {
+    flex-grow: 1;
+    flex-shrink: 2;
+    max-width: 100%;
+}
