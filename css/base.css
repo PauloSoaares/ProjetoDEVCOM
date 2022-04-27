@@ -1,7 +1,7 @@
 .container {
     padding-left: 6%;
     padding-right: 6%;
-    width: 1100px;
+    max-width: 1100px;
 }
 
 .botao{
