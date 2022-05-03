@@ -3,21 +3,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 35em;
+    height: 38em;
     width: 100%;
-    padding: 25px 0;
+    
 }
 
 .eventos-sobre {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .eventos-sobre--sobre {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     flex-grow: 2;
 }
 
@@ -45,6 +47,6 @@
 }
 
 .eventos-img {
-    flex-shrink: 2;
-    max-width: 100%;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
 }
