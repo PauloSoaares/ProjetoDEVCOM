@@ -14,23 +14,79 @@
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/devcom.css">
+    <link rel="stylesheet" href="../DEVCOM/css/integrados/style.css" />
+    <link rel="stylesheet" href="../DEVCOM/css/integrados/global.css" />
     <title>DEVCOM</title>
   </head>
   <body>
+    <header>
+      
+      <!-- NAVBAR -->
+
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top">
+        <div class="container">
+          <div class="avatar">
+            <a class="navbar-brand" href="http://www.fomentavale.com.br"></a>
+          </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#f-navbar"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Menu">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="f-navbar">
+              <ul class="navbar-nav ml-auto justify-content-md-end">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProgramas" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Programas
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Pré-Incubação</a>
+                          <a class="dropdown-item" href="#">Incubação</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" title="Coworking">Coworking</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../eventos/eventos.html" title="Eventos">Eventos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownSobre" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sobre
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#somos" title="Quem Somos">Quem Somos</a>
+                          <a class="dropdown-item" href="#fazemos" title="O que Fazemos">O que fazemos</a>
+                          <a class="dropdown-item" href="#idealizadores" title="Idealizadores">Idealizadores</a>
+                          <a class="dropdown-item" href="#apoiadores" title="Apoiadores">Apoiadores</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link faca-parte" href="#faca-parte" title="Faça Parte">Faça Parte</a>
+                  </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </header>
     <section>
       <div class="home">
-        <h1 class="home__titulo">Comunidade DEVCOM Fomenta</h1>
-        <p class="home__texto">
-          A fomenta Devcom é uma comunidade para todo e qualquer profissional de
-          tecnologia, então se você gosta de trocar uma idéia, seja bem-vindo.
-        </p>
-        <a target="_blank" href="#" class="home__botao"
-          >Participe você também</a
-        >
+        <div class="home-sobre container">
+          <h1 class="home-sovre--titulo">Comunidade DEVCOM Fomenta</h1>
+          <p class="home-sobre--texto">
+            A fomenta Devcom é uma comunidade para todo e qualquer profissional de
+            tecnologia, então se você gosta de trocar uma idéia, seja bem-vindo.
+          </p>
+          <a target="_blank" href="#" class="home-sobre--botao"
+            >Participe você também</a
+          >
+        </div>
+        
       </div>
     </section>
 
-      <!--DESCRIÇÃO GELADATECH-->
+      <!--DESCRIÇÃO EVENTOS GELADATECH-->
 
     <section class="eventos">
       <div class="eventos-sobre container">
@@ -74,12 +130,64 @@
 
     <section class="devcom">
       <div class="devcom-descricao container">
-        <p class="devcom-descricao--paragrafo">
+        <div class="devcom-descricao--sobre">
+          <p class="devcom-descricao--paragrafo">
           A fomenta Devcom é uma comunidade para todo e qualquer profissional de tecnologia, então se você gosta de trocar uma idéia, seja bem-vindo.
-        </p>
+          </p>
+        </div>
+        <img class="devcom-img" src="./assets/imgs/devcom-logo.png" alt="Logo DEVCOM">
       </div>
 
+      <div class="participe container">
+        <h3 class="participe-subtitulo">Participe você também</h3>
+        <p class="participe-paragrafo">Acesse nosso grupo no WhatsApp e venha fazer parte dessa comunidade conosco</p>
+        <a target="_blank" href="#" class="participe-botao"
+          >Participe você também</a>
+      </div>
     </section>
+
+    <!--FOOTER-->
+
+    <footer id="footer">
+      <div class="container">
+        <div id="infos" class="row">
+          <div id="coluna1" class="col-md-4">
+            <div class="row">
+              <div id="coluna1-1" class="col-md-4">
+                <img src="../DEVCOM/assets/imgs/logo2.svg" />
+              </div>
+              <div id="coluna1-2" class="col-md-8">
+               <p>Avenida , 9 de Julho, 106 SALA 1 (FRENTE)</p>
+               <p>Centro - Assis/SP</p>
+               <p>contato@fomentavale.com.br</p>
+              </div>
+            </div>
+          </div>
+            <div id="coluna2" class="col-md-4">
+              <h6>SOBRE NÓS</h6>
+              <p><a href=""><img src="../DEVCOM/assets/imgs/link.svg" />Poítica de Privacidade</a></p>
+              <p><a href=""><img src="../DEVCOM/assets/imgs/link.svg" />Termos de Uso</a></p>
+              <p><a href=""><img src="../DEVCOM/assets/imgs/link.svg" />Dúvidas Frequentes</a></p>
+              <p><a href=""><img src="../DEVCOM/assets/imgs/link.svg" />Trabalhe Conosco</a></p>
+              <p><a href=""><img src="../DEVCOM/assets/imgs/link.svg" />Contratos e Condições</a></p>
+            </div>
+            <div id="coluna3" class="col-md-4">
+              <div id="title" class="row">
+                <h6>NOSSAS REDES SOCIAIS</h6>
+              </div>
+              <div id="icons" class="row">
+                <button class="facebook"><img src="../DEVCOM/assets/imgs/facebook.svg" /></button>
+                <button class="instagram"><img src="../DEVCOM/assets/imgs/instagram.svg" /></button>
+                <button class="linkedin"><img src="../DEVCOM/assets/imgs/linkedin.svg" /></button>
+              </div>
+            </div>
+        </div>
+        <div id="copyright" class="row">
+          <p>Copyright © 2022 | Todos os direitos reservados à Fomenta Vale</p>
+        </div>
+      </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
