@@ -24,7 +24,7 @@ div.center{
 }
 
 .navbar {
-	height: 80px;
+	height: 100px;
     padding-top: 20px;
     transition: all 0.30s linear;
     background-color: #002F2E;
